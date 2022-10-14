@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_service_props_service_props",
+  "info": {
+    "displayName": "service-props",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "service": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.service"
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price.price"
+    }
+  }
+}

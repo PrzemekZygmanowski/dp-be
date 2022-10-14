@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_big_icon_overview_props_big_icon_overview_props",
+  "info": {
+    "displayName": "bigIconOverviewProps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icons.icons"
+    }
+  }
+}

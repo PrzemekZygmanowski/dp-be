@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_main_service_props_services",
+  "info": {
+    "displayName": "service",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

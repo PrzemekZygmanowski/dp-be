@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainHeaderProps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-header-props.main-header"
+    },
+    "textOverviewProps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text-overview-props.text-overview-props"
+    },
+    "serviceProps": {
+      "displayName": "service-props",
+      "type": "component",
+      "repeatable": true,
+      "component": "service-props.service-props"
+    }
+  }
+}

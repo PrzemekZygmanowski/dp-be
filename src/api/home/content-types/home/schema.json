@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainHeaderProps": {
+      "displayName": "Main Header",
+      "type": "component",
+      "repeatable": false,
+      "component": "main-header-props.main-header"
+    },
+    "textOverviewProps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-overview-props.text-overview-props"
+    },
+    "phoneNumbers": {
+      "displayName": "phoneNumbers",
+      "type": "component",
+      "repeatable": true,
+      "component": "phone-numbers.phone-numbers"
+    },
+    "Service": {
+      "displayName": "Service",
+      "type": "component",
+      "repeatable": false,
+      "component": "service.service"
+    },
+    "bigIconOverviewProps": {
+      "displayName": "bigIconOverviewProps",
+      "type": "component",
+      "repeatable": true,
+      "component": "big-icon-overview-props.big-icon-overview-props"
+    },
+    "Prices": {
+      "displayName": "Prices",
+      "type": "component",
+      "repeatable": true,
+      "component": "prices.prices"
+    }
+  }
+}
