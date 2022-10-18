@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "contacts",
+  "collectionName": "affiliations",
   "info": {
-    "singularName": "contact",
-    "pluralName": "contacts",
-    "displayName": "Contact",
+    "singularName": "affiliation",
+    "pluralName": "affiliations",
+    "displayName": "Affiliation",
     "description": ""
   },
   "options": {
@@ -17,32 +17,26 @@
       "repeatable": false,
       "component": "main-header-props.main-header"
     },
-    "textOverviewProps": {
+    "firstTextOverviewProps": {
       "type": "component",
       "repeatable": false,
       "component": "text-overview-props.text-overview-props"
     },
-    "contactOverviewProps": {
-      "displayName": "contactOverviewProps",
+    "secondTextOverviewProps": {
       "type": "component",
       "repeatable": false,
-      "component": "contact-overview-props.contact-overview-props"
+      "component": "text-overview-props.text-overview-props"
     },
-    "contactForOrders": {
+    "phoneNumbers": {
       "type": "component",
       "repeatable": true,
       "component": "phone-numbers.phone-numbers"
     },
-    "contacts": {
+    "cards": {
+      "displayName": "cards",
       "type": "component",
-      "repeatable": true,
-      "component": "phone-numbers.phone-numbers"
-    },
-    "mails": {
-      "displayName": "mails",
-      "type": "component",
-      "repeatable": true,
-      "component": "mails.mails"
+      "repeatable": false,
+      "component": "cards.cards"
     }
   }
 }

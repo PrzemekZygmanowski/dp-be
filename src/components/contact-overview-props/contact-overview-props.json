@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_overview_props_contact_overview_props",
+  "info": {
+    "displayName": "contactOverviewProps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "secondTitle": {
+      "type": "string"
+    },
+    "offer": {
+      "type": "text"
+    }
+  }
+}
